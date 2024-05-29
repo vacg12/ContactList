@@ -1,0 +1,14 @@
+{
+  "name": "listacontactos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx json-server db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}
