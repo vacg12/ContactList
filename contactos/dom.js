@@ -95,7 +95,7 @@ form.addEventListener('submit', async e => {
 
 // si el usuario no existe no te cargue la pagina de contactos
 if(!user){
-  window.location.href = '../Login/';
+  window.location.href = '../';
 }
 
 list.addEventListener('click', async e => {
@@ -111,7 +111,7 @@ list.addEventListener('click', async e => {
 //Funcion para cerrar sesion
 logOut.addEventListener('click', async e => {
   localStorage.removeItem('user');
-  window.location.href = '../Login/';
+  window.location.href = '../';
 });
 
 
