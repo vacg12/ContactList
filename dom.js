@@ -22,7 +22,7 @@ formLogin.addEventListener('submit', async e =>{
     } else {
         localStorage.setItem('user', JSON.stringify(user));
         //Aqui al presionar el boton ingresar te lleva a la pagina de contactos (si el ususrio existe).
-        window.location.href = '../../../../contactos/';
+        window.location.href = '../../contactos/';
     }
  });
 
